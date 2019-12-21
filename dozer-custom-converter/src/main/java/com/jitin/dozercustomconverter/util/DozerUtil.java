@@ -31,11 +31,11 @@ public class DozerUtil {
 	 * cases you want to exclude address. To achieve this you have to call below
 	 * method with mapId. Configuration is in dozerMapping.xml file.
 	 */
-	public <T, S> List<T> mapAsList(List<S> objects, Class<T> newObjectClass, String mapId) {
+	/* public <T, S> List<T> mapAsList(List<S> objects, Class<T> newObjectClass, String mapId) {
 		final List<T> newObjects = new ArrayList<T>();
 		for (S s : objects) {
 			newObjects.add(mapper.map(s, newObjectClass, mapId));
 		}
 		return newObjects;
-	}
+	} */
 }
