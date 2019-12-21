@@ -16,7 +16,7 @@
 	<!-- http://dozer.sourceforge.net/documentation/contextmapping.html -->
 	<mapping map-id="noAddress">
 		<class-a>com.test.model.StudentBO</class-a>
-		<class-a>com.test.dto.StudentDTO</class-a>
+		<class-b>com.test.dto.StudentDTO</class-b>
 		<field-exclude type="one-way">
 			<a>address</a>
 			<b>address</b>
