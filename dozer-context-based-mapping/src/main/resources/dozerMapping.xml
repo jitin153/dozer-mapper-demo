@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net htpp://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<!-- Context Based Mapping -->
+	<!-- http://dozer.sourceforge.net/documentation/contextmapping.html -->
+	<mapping map-id="noAddressMap">
+		<class-a>com.jitin.dozercontextbasedmapping.model.StudentBO</class-a>
+		<class-b>com.jitin.dozercontextbasedmapping.dto.StudentDTO</class-b>
+		<field-exclude type="one-way">
+			<a>address</a>
+			<b>address</b>
+		</field-exclude>
+	</mapping>
+</mappings>
