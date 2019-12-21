@@ -13,13 +13,14 @@
 	</configuration>
 
 	<!-- Context Based Mapping -->
+	<!-- If you want to exclude any field while mapping then only you have to do this configuration. -->
 	<!-- http://dozer.sourceforge.net/documentation/contextmapping.html -->
-	<mapping map-id="noAddress">
+	<!-- <mapping map-id="noAddress">
 		<class-a>com.test.model.StudentBO</class-a>
 		<class-b>com.test.dto.StudentDTO</class-b>
 		<field-exclude type="one-way">
 			<a>address</a>
 			<b>address</b>
 		</field-exclude>
-	</mapping>
+	</mapping> -->
 </mappings>
